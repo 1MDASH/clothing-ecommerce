@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dash.ing</title>
+  <link rel="stylesheet" href="C:\xampp\htdocs\ecommerce\style.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="brand">Dash.ing</h1>
+      <ul>
+        <li>Home</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+        <li>Accessories</li>
+       <li><a href="about.html">About</a></li>
+
+      </ul>
+      <div class="nav-icons">
+        <input type="text" placeholder="Search">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- MEN SECTION -->
+    <section id="men">
+      <h2>Men’s Collection</h2>
+      <p>Timeless cuts and contemporary fits—elevate your everyday style.</p>
+      <div class="product-grid">
+        <div class="product-card" onclick="viewProduct('Yellow T-shirt', '32.99', 'sh1.jpg')">
+          <img src="C:\xampp\htdocs\ecommerce\sh1.jpg">
+          <div class="info">
+            <h3>Yellow T-shirt</h3>
+            <p>$32.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+
+        <div class="product-card" onclick="viewProduct('Orange T-shirt', '49.99', 'sh2.jpg')">
+          <img src="sh2.jpg">
+          <div class="info">
+            <h3>Orange T-shirt</h3>
+            <p>$49.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+
+        <div class="product-card" onclick="viewProduct('Black T-shirt', '39.99', 'sh4.jpg')">
+          <img src="sh4.jpg">
+          <div class="info">
+            <h3>Black T-shirt</h3>
+            <p>$39.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WOMEN SECTION -->
+    <section id="women">
+      <h2>Women’s Collection</h2>
+      <p>Soft silhouettes and punchy prints for every mood.</p>
+      <div class="product-grid">
+        <div class="product-card" onclick="viewProduct('Yellow Dress', '45.99', 'w1.jpg')">
+          <img src="w1.jpg">
+          <div class="info">
+            <h3>Yellow Dress</h3>
+            <p>$45.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+
+        <div class="product-card" onclick="viewProduct('Red Dress', '34.99', 'w2.jpg')">
+          <img src="w2.jpg">
+          <div class="info">
+            <h3>Red Dress</h3>
+            <p>$34.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+
+        <div class="product-card" onclick="viewProduct('Black and White Dress', '39.99', 'w4.jpg')">
+          <img src="w4.jpg">
+          <div class="info">
+            <h3>black and white dress</h3>
+            <p>$39.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ACCESSORIES SECTION -->
+    <section id="accessories">
+      <h2>Accessories</h2>
+      <p>The finishing touches that pull every look together.</p>
+      <div class="product-grid">
+        <div class="product-card" onclick="viewProduct('Leather Crossbody Bag', '39.99', '')">
+          <img src="v1.png">
+          <div class="info">
+            <h3>Leather Crossbody Bag</h3>
+            <p>$39.99</p>
+            <button>View Details</button>
+          </div>
+        </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
